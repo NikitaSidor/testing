@@ -1,0 +1,98 @@
+/* RegistrationForm.css */
+
+.registration-form {
+    min-width: 580px;
+    color: #959595;
+    background-color: white;
+    padding: 108px 60px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Добавление тени */
+    max-width: 400px; /* Максимальная ширина формы */
+    margin: 0 auto; /* Центрирование формы по горизонтали */
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Отступ между заголовком и следующим элементом */
+}
+
+.text-liner {
+    text-align: center;
+    margin-bottom: 20px; /* Отступ между текстом и следующим элементом */
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #555; /* Цвет иконок */
+    margin-right: 10px; /* Отступ между иконками */
+}
+
+.text-login {
+    margin-top: 20px; /* Отступ от нижнего края формы */
+    text-align: center;
+}
+
+.text-login a {
+    color: #007bff; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+.text-login a:hover {
+    text-decoration: underline; /* Подчеркивание ссылок при наведении */
+}
+.form-group {
+    margin: 28px 0;
+}
+.form-title {
+    color: #3F444A;
+    font-size: 32px;
+    font-weight: 500;
+}
+.form-button {
+    margin: 34px 0 24px;
+}
+.form-button button {
+    width: 100%;
+}
+
+.form-button button:disabled {
+    opacity: 0.7; /* Уменьшение прозрачности */
+    cursor: not-allowed; /* Запрет на использование курсора */
+    /* Дополнительные стили по вашему усмотрению */
+}
+.social-register {
+    width: 100%;
+    position: relative;
+}
+.social-register span {
+    position: relative;
+    padding: 0 3px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #fff;
+}
+.bg-liner {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    background: #E6E6E6;
+    transform: translate(0, -50%);
+}
+.social-register-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin: 34px 0 37px !important;
+}
+.log-in {
+    font-weight: 700;
+}
+
+.policy {
+    color: #727272;
+    font-weight: 600;
+}
