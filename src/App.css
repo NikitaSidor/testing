@@ -1,39 +1,10 @@
+/* Общие стили */
 :root {
     font-size: 20px;
 }
-.header .navbar {
-    padding: 19px 40px 24px;
-}
-.header .navbar-brand {
-    align-self: center;
-}
-.header .navbar-brand img {
-    width: 293px;
-    height: 60px;
-    object-fit: contain;
-    object-position: left top;
-}
-.header .navbar-nav {
-    gap: 4px;
-}
 
-.header .nav-link {
-    color: #000;
-}
-.header .nav-menu .nav-link {
-    padding-bottom: 15px;
-    padding-top: 0;
-}
-.header .nav-function {
-    align-items: center;
-    margin-left: auto;
-    margin-top: 15px;
-    gap: 20px;
-}
-.header .nav-function .btn {
-    padding: 15px 40px;
-}
 
+/* Стили кнопок */
 .btn {
     font-weight: bold !important;
 }
@@ -52,15 +23,8 @@
     --bs-btn-disabled-bg: #F05B22 !important;
     --bs-btn-disabled-border-color: #F05B22 !important;
 }
-.header .border-right{
-    margin: 0 20px;
-    width: 1px;
-    height: 59px;
-    background: #C7C7C7;
-}
-h1 {
-    margin-bottom: 30px !important;
-}
+
+/* Стили баннера */
 .banner {
     position: relative;
     width: 100%;
@@ -82,15 +46,40 @@ h1 {
     gap: 130px;
     align-items: center;
 }
+
+/* Стили для активной ссылки в навигационном меню */
 .header .nav-menu .nav-link.active {
     color: #0165FF;
 }
-.header .dropdown-language img {
-    width: 34px;
-    height: 34px;
-    object-fit: contain;
-    object-position: center;
-}
+
+/* Общие стили ссылок */
 a {
     text-decoration: none !important;
+}
+
+/* Дополнительные стили для разделительной линии */
+.header .border-right {
+    margin: 0 20px;
+    width: 1px;
+    height: 59px;
+    background: #C7C7C7;
+}
+
+/* Специфические стили для заголовка h1 */
+h1 {
+    margin-bottom: 30px !important;
+}
+.risk-disclaimer {
+    position: relative;
+    font-size: .8rem;
+    padding: 51px 0;
+}
+.risk-disclaimer p {
+    margin-bottom: 0;
+}
+.risk-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 0;
 }

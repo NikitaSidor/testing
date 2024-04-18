@@ -1,0 +1,32 @@
+/* Стили шапки */
+.header .navbar {
+    padding: 19px 40px 24px;
+}
+.header .navbar-brand {
+    align-self: center;
+}
+.header .navbar-brand img {
+    width: 293px;
+    height: 60px;
+    object-fit: contain;
+    object-position: left top;
+}
+.header .navbar-nav {
+    gap: 4px;
+}
+.header .nav-link {
+    color: #000;
+}
+.header .nav-menu .nav-link {
+    padding-bottom: 15px;
+    padding-top: 0;
+}
+.header .nav-function {
+    align-items: center;
+    margin-left: auto;
+    margin-top: 15px;
+    gap: 20px;
+}
+.header .nav-function .btn {
+    padding: 15px 40px;
+}
