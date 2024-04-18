@@ -1,11 +1,8 @@
 import React from 'react';
-
 import { Navbar, Nav, Button } from 'react-bootstrap';
-
-import LanguageDropdown from '../dropdawn/LanguageDropdown/LanguageDropdown'
-import NavItem from '../navItem/default'
-
-import './Header.css'
+import LanguageDropdown from '../dropdawn/LanguageDropdown/LanguageDropdown';
+import NavItem from '../navItem/default';
+import './Header.css';
 
 const Header = () => {
     const currentPath = window.location.pathname;
@@ -17,7 +14,7 @@ const Header = () => {
                     <img src="/img/logo.jpg" alt="logo"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse className="align-items-xl-end" id="basic-navbar-nav">
+                <Navbar.Collapse className="align-items-end" id="basic-navbar-nav">
                     <Nav className="nav-menu mr-auto align-items-xl-end">
                         <NavItem href="#about" active={currentPath === '/about'}>About</NavItem>
                         <NavItem href="#forex" active={currentPath === '/forex'}>Forex Trading</NavItem>

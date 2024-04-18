@@ -26,9 +26,10 @@
 
 /* Стили баннера */
 .banner {
+    height: calc(100vh - 5.825rem);
     position: relative;
     width: 100%;
-    padding: 113px 100px 126px;
+    padding: 5.65rem 5rem 6.3rem;
 }
 .banner .overlay {
     position: absolute;
@@ -43,7 +44,7 @@
     z-index: 10;
     color: #fff;
     display: flex;
-    gap: 130px;
+    gap: 6.5rem;
     align-items: center;
 }
 
@@ -59,20 +60,20 @@ a {
 
 /* Дополнительные стили для разделительной линии */
 .header .border-right {
-    margin: 0 20px;
+    margin: 0 1rem;
     width: 1px;
-    height: 59px;
+    height: 3rem;
     background: #C7C7C7;
 }
 
 /* Специфические стили для заголовка h1 */
 h1 {
-    margin-bottom: 30px !important;
+    margin-bottom: 1.5rem !important;
 }
 .risk-disclaimer {
     position: relative;
     font-size: .8rem;
-    padding: 51px 0;
+    padding: 2.525rem 0;
 }
 .risk-disclaimer p {
     margin-bottom: 0;
@@ -81,5 +82,63 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 30px 0;
+    padding: 1.5rem 0;
+}
+@media screen and (max-width: 1500px){
+    :root {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1400px){
+    :root {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1300px){
+    :root {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .registration-form {
+        padding-top: 3rem;
+        max-width: 60%;
+    }
+    .risk-disclaimer {
+        padding: 3rem 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .risk-disclaimer {
+        padding: 4.4rem 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .banner {
+        padding: 4rem 1.5rem 3rem;
+    }
+    .banner .content {
+        gap: 1rem
+    }
+    .registration-form {
+        padding-top: 3rem;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 460px) {
+    body {
+        min-width: 100%;
+    }
 }

@@ -28,9 +28,6 @@ const RiskDisclaimer = () => {
     };
 
     const transitionStyles = {
-        entering: { padding: '52px' },
-        entered:  { padding: '52px'},
-        exiting:  { padding: '52px'},
         exited:  { padding: 0 },
     };
 
